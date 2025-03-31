@@ -3,8 +3,8 @@ export const msalConfig = {
     auth: {
       clientId: "dd0bb050-7cde-40de-b065-d9225ca4497e",
       authority: "https://login.microsoftonline.com/c02e07f8-5785-4da1-b596-208d85c97500",
-      redirectUri: "https://aztrol.purplecliff-47739561.eastus2.azurecontainerapps.io",
-      postLogoutRedirectUri: "https://aztrol.purplecliff-47739561.eastus2.azurecontainerapps.io",
+      redirectUri: "http://localhost:3000",
+      postLogoutRedirectUri: "http://localhost:3000",
     },
     cache: {
       cacheLocation: "sessionStorage",
